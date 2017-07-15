@@ -1,0 +1,5 @@
+Based on: https://docs.spring.io/docs/Spring-MVC-step-by-step/
+First commit completes Chapter 1.
+first commit: Basic flow spring-mvc based on 2.5.6 spring jar framework.
+Framework 2.5.6 downlaoded from: 
+ftp://ftp.za.freebsd.org/macports/distfiles/spring-framework25/spring-framework-2.5.6.SEC01-with-dependencies.zip
