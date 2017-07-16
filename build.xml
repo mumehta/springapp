@@ -11,6 +11,7 @@
 	<property name="appserver" value="${appserver.home}"/>
 	<property name="appserver.lib" value="${appserver}/lib"/>
 	<property name="test.dir" value="test"/>
+	<property name="report.dir" value="test-report"/>
 	
 	<path id="master-classpath">
         <fileset dir="${web.dir}/WEB-INF/lib">
@@ -32,6 +33,8 @@
         <echo message=""/>
         <echo message="Available targets are:"/>
         <echo message=""/>
+    	<echo message="clean     --> Clean application"/>
+    	<echo message="clean-report     --> Clean test reports"/>
         <echo message="build     --> Build the application"/>
         <echo message="deploy    --> Deploy application as directory"/>
         <echo message="deploywar --> Deploy application as a WAR file"/>
@@ -42,8 +45,16 @@
         <echo message="list      --> List Tomcat applications"/>
         <echo message=""/>
     </target>
+	
+	<target name="clean"> 
+		<delete dir="${build.dir}"/> 
+	</target>
+	<target name="clean-report"> 
+	     <delete dir="${report.dir}"/> 
+		 <mkdir dir="${report.dir}"/>
+	</target>
 
-    <target name="build" description="Compile main source tree java files">
+    <target name="build" description="Compile main source tree java files" depends="clean">
         <mkdir dir="${build.dir}"/>
         <javac destdir="${build.dir}" source="1.8" target="1.8" debug="true"
                deprecation="false" optimize="false" failonerror="true" includeantruntime="false">
@@ -52,7 +63,7 @@
         </javac>
     </target>
 	
-	<target name="buildtests" description="Compile test tree java files">
+	<target name="buildtests" description="Compile test tree java files" depends="build">
 	        <mkdir dir="${build.dir}"/>
 	        <javac destdir="${build.dir}" source="1.8" target="1.8" debug="true"
 	            deprecation="false" optimize="false" failonerror="true" includeantruntime="false">
@@ -60,19 +71,29 @@
 	            <classpath refid="master-classpath"/>
 	        </javac>
 	    </target>
-	
-	<target name="tests" depends="build, buildtests" description="Run tests">
-	        <junit printsummary="on"
+	 
+	<target name="tests" depends="clean-report, buildtests" description="Run tests">
+	        <junit printsummary="true"
 	            fork="false"
 	            haltonfailure="false"
 	            failureproperty="tests.failed"
-	            showoutput="true">
+	        	showoutput="true"> 
 	            <classpath refid="master-classpath"/>
-	            <formatter type="brief" usefile="false"/>
+	            <!--formatter type="brief" usefile="false"/-->
+	        	<formatter type="plain"/> 
+	        	<formatter type="xml" />
+	        	
+	        	<classpath location="${build.dir}" />
+	        	
+	        	<!--test name="springapp.web.HelloControllerTest"
+	        	        haltonfailure="no" todir="${report.dir}">
+	        	        <formatter type="plain" />
+	        	        <formatter type="xml" />
+	        	</test-->
 	            
-	            <batchtest>
+	            <batchtest todir="${report.dir}" fork="false">
 	                <fileset dir="${build.dir}">
-	                    <include name="**/*Tests.*"/>
+	                    <include name="**/*Test.*"/>
 	                </fileset>
 	            </batchtest>
 	            

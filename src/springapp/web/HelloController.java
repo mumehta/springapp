@@ -1,6 +1,7 @@
 package springapp.web;
 
 import java.io.IOException;
+import java.util.Date;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -14,15 +15,18 @@ import org.springframework.web.servlet.mvc.Controller;
 
 
 public class HelloController implements Controller{
-	
+	 
 	protected final Log logger = LogFactory.getLog(getClass());
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
 		throws ServletException, IOException	{
-		logger.info("Returning hello view");
-		// TODO Auto-generated method stub
-		return new ModelAndView("hello.jsp");
+		
+		String now = (new Date()).toString();
+        logger.info("Returning hello view with " + now);
+
+        return new ModelAndView("hello", "now", now);
+        
 	}
 
 }

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="HP_1040_TEMP2" name="springapp.web.HelloControllerTest" skipped="0" tests="1" time="0.053" timestamp="2017-07-16T08:03:44">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="appserver.lib" value="C:\Java\apache-tomcat-7.0.73/lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Java\jdk1.8.0_101\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:/Java/apache-ant-1.10.1" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="user.name" value="MMehta" />
+    <property name="tomcat.manager.url" value="http://localhost:8080/manager/text" />
+    <property name="tomcat.app.url" value="http://localhost:8080" />
+    <property name="build.dir" value="war/WEB-INF/classes" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_101\jre\bin" />
+    <property name="ant.project.default-target" value="usage" />
+    <property name="ant.project.name" value="springapp" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_101\jre\lib\endorsed" />
+    <property name="appserver.home" value="C:\Java\apache-tomcat-7.0.73" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="AU" />
+    <property name="java.home" value="C:\Java\jdk1.8.0_101\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="C:\Users\MMehta\Projects\springapp\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="tomcat.manager.password" value="s3cret" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="report.dir" value="test-report" />
+    <property name="user.variant" value="" />
+    <property name="web.dir" value="war" />
+    <property name="ant.library.dir" value="C:/Java/apache-ant-1.10.1/lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="tomcat.manager.username" value="tomcat" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp850" />
+    <property name="user.script" value="" />
+    <property name="ant.file.springapp" value="C:\Users\MMehta\Projects\springapp\build.xml" />
+    <property name="user.home" value="C:\Users\MMehta" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_101\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\MMehta\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\MMehta\bin;C:\Program Files (x86)\Java\jre1.8.0_111\bin\client;C:\Program Files (x86)\Java\jre1.8.0_111\bin;C:\Program Files (x86)\Java\jre1.8.0_111\lib\i386;C:\cmder\bin;C:\cmder\vendor\conemu-maximus5\ConEmu\Scripts;C:\cmder\vendor\conemu-maximus5;C:\cmder\vendor\conemu-maximus5\ConEmu;C:\Python35\Scripts;C:\Python35;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Java\jdk1.8.0_101\bin;C:\Java\apache-maven-3.3.9\bin;C:\Java\apache-ant-1.10.1\bin;C:\Java\gradle-3.1\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Users\MMehta\Downloads\putty;C:\Program Files\Oracle\VirtualBox;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Git\usr\bin;C:\Java\minikube;C:\Users\MMehta\installs\curl749\bin;C:\ProgramData\chocolatey\bin;C:\Users\MMehta\.dvm;C:\Program Files\Docker Toolbox;C:\Java\nvm;C:\Java\nodejs;C:\Program Files (x86)\Sennheiser\SoftphoneSDK;C:\Program Files (x86)\Skype\Phone;C:\notepad-plus-plus;C:\elasticsearch\bin;C:\kibana\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\MMehta\AppData\Roaming\Dashlane\4.6.6.23032\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Java\nvm;C:\Java\nodejs;C:\Users\MMehta\AppData\Local\atom\bin;C:\Program Files\Docker Toolbox;C:\Users\MMehta\AppData\Local\Microsoft\WindowsApps;C:\Users\MMehta\AppData\Roaming\Dashlane\4.8.2.33026\bin\Firefox_Extension\{442718d9-475e-452a-b3e1-fb1ee16b8e9f}\components;C:\Users\MMehta\AppData\Roaming\Dashlane\4.8.2.33026\ucrt;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\share\vim\vim74;C:\cmder;C:\sts-bundle\sts-3.8.4.RELEASE;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;." />
+    <property name="name" value="springapp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher -cp  tests" />
+    <property name="java.class.path" value="C:/Java/apache-ant-1.10.1/lib/ant-launcher.jar;C:\Java\apache-ant-1.10.1\lib\ant-antlr.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-bcel.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-bsf.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-log4j.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-oro.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-regexp.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-resolver.jar;C:\Java\apache-ant-1.10.1\lib\ant-apache-xalan2.jar;C:\Java\apache-ant-1.10.1\lib\ant-commons-logging.jar;C:\Java\apache-ant-1.10.1\lib\ant-commons-net.jar;C:\Java\apache-ant-1.10.1\lib\ant-jai.jar;C:\Java\apache-ant-1.10.1\lib\ant-javamail.jar;C:\Java\apache-ant-1.10.1\lib\ant-jdepend.jar;C:\Java\apache-ant-1.10.1\lib\ant-jmf.jar;C:\Java\apache-ant-1.10.1\lib\ant-jsch.jar;C:\Java\apache-ant-1.10.1\lib\ant-junit.jar;C:\Java\apache-ant-1.10.1\lib\ant-junit4.jar;C:\Java\apache-ant-1.10.1\lib\ant-launcher.jar;C:\Java\apache-ant-1.10.1\lib\ant-netrexx.jar;C:\Java\apache-ant-1.10.1\lib\ant-swing.jar;C:\Java\apache-ant-1.10.1\lib\ant-testutil.jar;C:\Java\apache-ant-1.10.1\lib\ant-xz.jar;C:\Java\apache-ant-1.10.1\lib\ant.jar;C:\Java\jdk1.8.0_101\lib\tools.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\MMehta\AppData\Local\Temp\" />
+    <property name="deploy.path" value="C:\Java\apache-tomcat-7.0.73/webapps" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\MMehta\Projects\springapp" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="ant.file.type.springapp" value="file" />
+    <property name="basedir" value="C:\Users\MMehta\Projects\springapp" />
+    <property name="appserver" value="C:\Java\apache-tomcat-7.0.73" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Java\apache-ant-1.10.1\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="sun.stderr.encoding" value="cp850" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="tests" />
+  </properties>
+  <testcase classname="springapp.web.HelloControllerTest" name="testHandleRequest" time="0.022" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 16, 2017 6:03:44 PM springapp.web.HelloController handleRequest
+INFO: Returning hello view with Sun Jul 16 18:03:44 AEST 2017
+]]></system-err>
+</testsuite>
