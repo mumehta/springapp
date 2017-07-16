@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import junit.framework.TestCase;
 
-public class HelloControllerTest extends TestCase {
+public class HelloControllerTests extends TestCase {
 	protected final Log logger = LogFactory.getLog(getClass());
 	
 	public void testHandleRequest () throws ServletException, IOException {

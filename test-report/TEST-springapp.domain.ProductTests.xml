@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="HP_1040_TEMP2" name="springapp.web.HelloControllerTest" skipped="0" tests="1" time="0.053" timestamp="2017-07-16T08:03:44">
+<testsuite errors="0" failures="0" hostname="HP_1040_TEMP2" name="springapp.domain.ProductTests" skipped="0" tests="2" time="0.026" timestamp="2017-07-16T09:42:37">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="appserver.lib" value="C:\Java\apache-tomcat-7.0.73/lib" />
@@ -85,9 +85,8 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="tests" />
   </properties>
-  <testcase classname="springapp.web.HelloControllerTest" name="testHandleRequest" time="0.022" />
+  <testcase classname="springapp.domain.ProductTests" name="testSetAndGetDescription" time="0.015" />
+  <testcase classname="springapp.domain.ProductTests" name="testSetAndGetPrice" time="0.0" />
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Jul 16, 2017 6:03:44 PM springapp.web.HelloController handleRequest
-INFO: Returning hello view with Sun Jul 16 18:03:44 AEST 2017
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -1,0 +1,8 @@
+Testsuite: springapp.web.HelloControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+------------- Standard Error -----------------
+Jul 16, 2017 7:42:37 PM springapp.web.HelloController handleRequest
+INFO: Returning hello view with Sun Jul 16 19:42:37 AEST 2017
+------------- ---------------- ---------------
+
+Testcase: testHandleRequest took 0.018 sec

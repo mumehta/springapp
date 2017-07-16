@@ -1,0 +1,8 @@
+Testsuite: springapp.service.SimpleProductManagerTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Testcase: testGetProductsWithNoProducts took 0.016 sec
+Testcase: testGetProducts took 0 sec
+Testcase: testIncreasePriceWithEmptyListOfProducts took 0 sec
+Testcase: testIncreasePriceWithPositivePercentage took 0 sec
+Testcase: testIncreasePriceWithNullListOfProducts took 0 sec

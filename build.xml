@@ -93,7 +93,7 @@
 	            
 	            <batchtest todir="${report.dir}" fork="false">
 	                <fileset dir="${build.dir}">
-	                    <include name="**/*Test.*"/>
+	                    <include name="**/*Tests.*"/>
 	                </fileset>
 	            </batchtest>
 	            
