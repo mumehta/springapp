@@ -9,6 +9,7 @@ public class Product implements Serializable{
 	 */
 	private static final long serialVersionUID = 1L;
 	
+	private int id;
 	private String description;
     private Double price;
 	public String getDescription() {
@@ -30,6 +31,12 @@ public class Product implements Serializable{
         buffer.append("Description: " + description + ";");
         buffer.append("Price: " + price);
         return buffer.toString();
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
 	}
 
 }

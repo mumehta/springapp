@@ -7,7 +7,7 @@
   <style>
     .error { color: red; }
   </style>  
-</head>
+</head> 
 <body>
 <h1><fmt:message key="priceincrease.heading"/></h1>
 <form:form method="post" commandName="priceIncrease">
