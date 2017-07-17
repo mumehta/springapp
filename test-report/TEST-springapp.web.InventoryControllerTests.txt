@@ -1,0 +1,8 @@
+Testsuite: springapp.web.InventoryControllerTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+------------- Standard Error -----------------
+Jul 17, 2017 11:00:11 AM springapp.web.InventoryController handleRequest
+INFO: returning hello view with Mon Jul 17 11:00:11 AEST 2017
+------------- ---------------- ---------------
+
+Testcase: testHandleRequestView took 0.047 sec

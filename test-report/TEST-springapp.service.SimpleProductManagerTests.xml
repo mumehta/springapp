@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="HP_1040_TEMP2" name="springapp.service.SimpleProductManagerTests" skipped="0" tests="5" time="0.016" timestamp="2017-07-16T09:42:37">
+<testsuite errors="0" failures="0" hostname="HP_1040_TEMP2" name="springapp.service.SimpleProductManagerTests" skipped="0" tests="5" time="0.0" timestamp="2017-07-17T01:00:11">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="appserver.lib" value="C:\Java\apache-tomcat-7.0.73/lib" />
@@ -85,11 +85,11 @@
     <property name="src.dir" value="src" />
     <property name="ant.project.invoked-targets" value="tests" />
   </properties>
-  <testcase classname="springapp.service.SimpleProductManagerTests" name="testGetProductsWithNoProducts" time="0.016" />
+  <testcase classname="springapp.service.SimpleProductManagerTests" name="testGetProductsWithNoProducts" time="0.0" />
   <testcase classname="springapp.service.SimpleProductManagerTests" name="testGetProducts" time="0.0" />
-  <testcase classname="springapp.service.SimpleProductManagerTests" name="testIncreasePriceWithEmptyListOfProducts" time="0.0" />
-  <testcase classname="springapp.service.SimpleProductManagerTests" name="testIncreasePriceWithPositivePercentage" time="0.0" />
   <testcase classname="springapp.service.SimpleProductManagerTests" name="testIncreasePriceWithNullListOfProducts" time="0.0" />
+  <testcase classname="springapp.service.SimpleProductManagerTests" name="testIncreasePriceWithPositivePercentage" time="0.0" />
+  <testcase classname="springapp.service.SimpleProductManagerTests" name="testIncreasePriceWithEmptyListOfProducts" time="0.0" />
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
